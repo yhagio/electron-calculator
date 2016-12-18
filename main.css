@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.container {
+  width: 222px;
+  border: 1px solid #adadad;
+  margin: auto;
+  padding: 4px;
+}
+
+.result-display {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 4px 0;
+  padding: 0 0 0 2px;
+  font-size: 0.9em
+}
+
+.btn,
+.btn-AC {
+  height: 45px;
+  margin: 2px 0 2px;
+  padding: 0;
+  border: 1px solid #aaa;
+}
+
+.btn {
+  width: 50px;
+}
+
+.btn-AC {
+  width: 104px;
+}
+
+.btn:nth-child(4) {
+  color: blue;
+}
+
+.temp {
+  visibility: hidden;
+}

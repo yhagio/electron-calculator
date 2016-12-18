@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Yuichi Hagio">
+    <link rel="stylesheet" media="screen" href="main.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class='container'>
+
+      <div class='result-box'>
+        <input id='result' type='text' class='result-display' value='' disabled/>
+      </div>
+
+      <div class='buttons-box'>
+        <div>
+          <button id='paren1' class='btn' value='('>(</button>
+          <button id='paren2' class='btn' value=')'>)</button>
+          <button id='clear' class='btn-AC' value='AC'>AC</button>
+        </div>
+        <div>
+          <button id='seven' class='btn' value='7'>7</button>
+          <button id='eight' class='btn' value='8'>8</button>
+          <button id='nine' class='btn' value='9'>9</button>
+          <button id='divide' class='btn' value='/'>/</button>
+        </div>
+        <div>
+          <button id='four' class='btn' value='4'>4</button>
+          <button id='five' class='btn' value='5'>5</button>
+          <button id='six' class='btn' value='6'>6</button>
+          <button id='multiply' class='btn' value='*'>*</button>
+        </div>
+        <div>
+          <button id='one' class='btn' value='1'>1</button>
+          <button id='two' class='btn' value='2'>2</button>
+          <button id='three' class='btn' value='3'>3</button>
+          <button id='minus' class='btn' value='-'>-</button>
+        </div>
+        <div>
+          <button id='zero' class='btn' value='0'>0</button>
+          <button id='dot' class='btn' value='.'>.</button>
+          <button id='equal' class='btn' value='='>=</button>
+          <button id='plus' class='btn' value='+'>+</button>
+        </div>
+      </div>
+
+    </div>
+    <span id='temp' class='temp'></span>
+    <script type="text/javascript" src='calc.js'></script>
+  </body>
+</html>

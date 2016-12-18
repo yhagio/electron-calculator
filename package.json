@@ -1,0 +1,12 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Yuichi Hagio <yhagio87@gmail.com> (http://github.com/yhagio)",
+  "license": "MIT"
+}
